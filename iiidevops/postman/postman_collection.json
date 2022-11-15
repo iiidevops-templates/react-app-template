@@ -12,9 +12,6 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Body is correct\", function () {\r",
-							"    pm.response.to.have.body(\"You need to enable JavaScript to run this app.\");\r",
-							"});\r",
 							"pm.test(\"Status code check\", () => {\r",
 							"    pm.response.to.have.status(200);\r",
 							"});"
